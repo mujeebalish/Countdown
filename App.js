@@ -7,7 +7,7 @@ var getminutes = Math.floor((reamaningTime%(1000*60*60))/(1000*60));
 var getseconds = Math.floor((reamaningTime%(1000*60))/(1000));
 
 document.getElementById("days-box").innerHTML =  "0" + getDays + "<br>" + "DAYS";
-document.getElementById("hours-box").innerHTML =  "0" + gethours + "<br>" + "HOURS";
+document.getElementById("hours-box").innerHTML =  gethours + "<br>" + "HOURS";
 document.getElementById("minutes-box").innerHTML = getminutes + "<br>" + "MINUTES";
 document.getElementById("second-box").innerHTML =  getseconds + "<br>" + "SECONDS";
 
