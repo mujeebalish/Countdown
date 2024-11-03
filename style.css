@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #00ffff, #ff02ff, #00f932, #0032fc);
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#logo {
+    width: 190px;
+    margin-top: 0px;
+}
+
+#box-11 {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 12.0rem;
+}
+#bigsel-box {
+    width: 500px;
+    height: 15vh;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+.main-box {
+    width: 650px;
+    height: 80vh;
+    background-color: rgba(95, 2, 95.5);
+    margin-top: 50px;
+    border-radius: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#soon-para {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+    color: darkorange;
+}
+#counter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.count-box {
+    width: 140px;
+    height: 20vh;
+    background-color: #bd04bd;
+    color: white;
+    box-shadow: 0 10px 10px 5px gray;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+    
+    
+    
+    
